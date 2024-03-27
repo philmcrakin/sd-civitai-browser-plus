@@ -25,3 +25,6 @@ def init():
 _print = print
 def print(print_message):
     _print(f'\033[96mCivitAI Browser+\033[0m: {print_message}')
+
+def debug_print(print_message):
+    _print(f'\033[96mCivitAI Browser+ DEBUG\033[0m: {print_message}')
